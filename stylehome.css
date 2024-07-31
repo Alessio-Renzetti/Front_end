@@ -1,0 +1,58 @@
+
+body{
+
+    height: 100vh;
+
+}
+.main{
+
+    display:flex;
+
+
+}
+.navbar{
+    font-family: "Kanit", sans-serif;
+    font-size: 25px;
+    color:darkolivegreen;
+    display: flex;
+
+    justify-content: space-around;
+    height: 20vh;
+    width: 100%;
+
+
+    background-color:navajowhite;
+    
+}
+
+.button{
+    padding: 15px;
+    border: 1px solid darkolivegreen;
+    border-radius: 10px;
+}
+
+.nav-left{
+  
+   
+    display: flex;
+    justify-content: space-around;
+
+    width: 30%;
+    margin-left: 10px;
+}
+.nav-right{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+
+
+}
+
+.navbar img{
+
+height: 200px;
+width: 220px;
+
+
+}
+
