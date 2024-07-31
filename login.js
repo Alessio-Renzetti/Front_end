@@ -1,5 +1,6 @@
 
 $(".clicca").click(function(){
-    user=$('input').val()
-    console.log(user)
+    user=$('.user').val()
+    pass=$('.pass').val()
+    console.log(user,pass)
 })
