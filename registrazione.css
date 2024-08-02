@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input{
+    width: 25vh;
+    margin: 6px;
+    height: 3vh;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    margin: 5vh
+}
+.clicca{
+    width: 187px;
+    height: 35px;
+    margin: 16px;
+    background-color: #b8df74;
+    border-radius: 9px;
+}
+p{
+    color: #808080ad;
+    margin-bottom: 10px;
+}
+.fb,.gl{
+    height: 5vh;
+    width: 5vh;
+    margin-left: 10px;
+}
+img{
+    height: 3vh;
+    width: 3vh;
+}
+#scelta_login{
+    margin: 10px;
+    display: flex;
+}
+.privacy{
+ font-size: small;
+ color: rgb(39, 39, 39);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ body{
+
+    height: 100vh;
+
+}
+.main{
+
+    display:flex;
+
+
+}
+.navbar{
+    font-family: "Kanit", sans-serif;
+    font-size: 25px;
+    color:darkolivegreen;
+    display: flex;
+
+    justify-content: space-around;
+    height: 20vh;
+    width: 100%;
+
+
+    background-color:navajowhite;
+    
+}
+
+.button{
+    padding: 15px;
+    border: 1px solid darkolivegreen;
+    border-radius: 10px;
+}
+
+.nav-left{
+  
+   
+    display: flex;
+    justify-content: space-around;
+
+    width: 30%;
+    margin-left: 10px;
+}
+.nav-right{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+
+
+}
+
+.navbar img{
+
+height: 200px;
+width: 220px;
+
+
+}
+ 

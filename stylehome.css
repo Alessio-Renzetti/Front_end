@@ -1,4 +1,8 @@
+*{
 
+
+    
+}
 body{
 
     height: 100vh;
@@ -11,47 +15,95 @@ body{
 
 }
 .navbar{
+    transition: all;
+    transition-duration: 1s;
+
+    img{
+        
+            filter:brightness(100);
+        
+    }
+    position: absolute;
+   
     font-family: "Kanit", sans-serif;
-    font-size: 25px;
-    color:darkolivegreen;
+    font-size: 20px;
+    color:white;
     display: flex;
 
     justify-content: space-around;
-    height: 20vh;
+    align-content: center;
+    height: 14vh;
     width: 100%;
 
+    
 
-    background-color:navajowhite;
+
+    background-color:#ffdead00;
     
 }
 
+.navbar:hover{
+    transition-duration: 0.2s;
+    background-color:#ffdead;
+color:darkolivegreen;
+img{
+filter:none;
+}
+
+
+.nav-left{
+    border-bottom: 1px solid darkolivegreen;
+}
+.nav-right{
+    border-bottom: 1px solid darkolivegreen;
+}
+
+}
 .button{
-    padding: 15px;
-    border: 1px solid darkolivegreen;
-    border-radius: 10px;
+   cursor: pointer;
+}
+#img:hover{
+    transition-duration: 1s;
+    filter:hue-rotate(193deg);
+}
+
+.button:hover{
+    color:darkred;
+    transition-duration: 1s;
+      
 }
 
 .nav-left{
-  
+    border-bottom: 1px solid white;
    
     display: flex;
     justify-content: space-around;
 
-    width: 30%;
-    margin-left: 10px;
+    width: 35%;
+    margin-left: 40px;
 }
 .nav-right{
+    border-bottom: 1px solid white;
     display: flex;
     justify-content: space-around;
-    width: 30%;
+    width: 35%;
+    margin-right: 40px;
 
 
 }
 
+#img{
+    margin-top: 10px;
+    height: 150px;
+    width: 220px;
+
+}
 .navbar img{
 
-height: 200px;
-width: 220px;
+    height: 100%;
+    width: 80%;
+
+
 
 
 }
