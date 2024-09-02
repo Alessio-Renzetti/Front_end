@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.prenota{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.arrivo,.partenza{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clicca{
+    width: 187px;
+    height: 35px;
+    margin: 16px;
+    background-color: #b8df74;
+    border-radius: 9px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
