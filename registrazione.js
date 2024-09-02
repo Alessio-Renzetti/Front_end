@@ -23,6 +23,7 @@ $(".clicca").click(function(){
         success: function(response) {
             // console.log('Success:', response);
             alert(response.messaggio);
+            location.href = "https://www.google.com";
         },
         error: function(jqXHR, textStatus, errorThrown) {
             console.error('Error:', textStatus, errorThrown);
