@@ -1,0 +1,50 @@
+/* #deluxe{
+    display: flex;
+
+} */
+
+.bho{margin:10px;}
+
+.fotocamera{
+    height: 275px;
+    width: 275px;
+}
+
+h5{
+    color: darkolivegreen;
+    margin-top: 10px;
+}
+
+#demo{
+
+    height:70%;
+    width: 70%;
+}
+   
+#camerainfo{
+display: flex;
+    background-color: white;
+}
+
+#carosello{
+    display: inline;
+    padding: 0px;
+}
+
+#descrizione{
+    display: inline;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+
+#camera2info{
+    display: flex;
+    background-color: white;
+}
+
+#camera3info{
+    display: flex;
+    background-color: white;
+}
