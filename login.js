@@ -5,4 +5,7 @@ $(".clicca").click(function(){
     console.log(user,pass)
     localStorage.setItem("username", user)
     localStorage.setItem("password", pass)
+
+
+    location.href= "profilo.html"
 })
