@@ -21,8 +21,8 @@ $(".clicca").click(function(){
         contentType: 'application/json; charset=utf-8',
         dataType: 'json',
         success: function(response) {
-            console.log('Success:', response);
-            alert(Json.stringify(response));
+            // console.log('Success:', response);
+            alert(response.messaggio);
         },
         error: function(jqXHR, textStatus, errorThrown) {
             console.error('Error:', textStatus, errorThrown);
