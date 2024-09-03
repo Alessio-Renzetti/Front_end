@@ -47,33 +47,17 @@ img{
     
 }
 
+.navbar {
+    flex-wrap: nowrap;
+}
+.navbar img{
+    width: 15%;
+}
 
 
 
 
-
-
-
-
-
-/* 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*
  body{
 
     height: 100vh;
@@ -100,11 +84,6 @@ img{
     
 }
 
-.button{
-    padding: 15px;
-    border: 1px solid darkolivegreen;
-    border-radius: 10px;
-}
 
 .nav-left{
   
