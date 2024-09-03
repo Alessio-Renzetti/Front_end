@@ -48,3 +48,60 @@ display: flex;
     display: flex;
     background-color: white;
 }
+
+.nav-left{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-right{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.button{
+    margin:20px
+}
+
+.button:hover{
+    color:darkred;
+    transition-duration: 1s;
+    text-transform:lowercase;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#fatina{
+     height: 200px;
+    width: 250px; 
+} 
+
+.navbar{
+    transition: all;
+    transition-duration: 1s;
+
+   
+    font-family: "Kanit", sans-serif;
+    font-size: 20px;
+    color:darkolivegreen;
+    display: flex;
+
+    justify-content: space-around;
+    align-content: center;
+    height: 14vh;
+    width: 100%;
+
+    
+
+
+    background-color:#ffdead00;
+    
+}
+.main{
+    margin-bottom: 20px;
+}

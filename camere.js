@@ -37,3 +37,7 @@ $(".clicca6").click(function(){
     $("#cameree").hide()
     $("#camera3info").show()
 })
+
+// $(".button").hover(function(){
+ // (".button").css(`color`,`red`)
+// })
