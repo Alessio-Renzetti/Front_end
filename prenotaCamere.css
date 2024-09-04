@@ -10,11 +10,13 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+    margin-top: 15vh;
 }
 .arrivo,.partenza{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 2vh;
 }
 .clicca{
     width: 187px;
@@ -23,7 +25,9 @@
     background-color: #b8df74;
     border-radius: 9px;
 }
-
+body{
+    background-color: #ffdead;
+}
 
 
 
