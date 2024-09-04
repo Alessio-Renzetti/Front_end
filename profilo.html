@@ -17,14 +17,32 @@
         .omino{
             width: 100%;
         }
-        .dati{
-            font-size: 135%;
-            font-family:Verdana, Geneva, Tahoma, sans-serifclass="dati";
+        .prenotazioni{
+            display: flex;
+            justify-content: space-between;
+            font-size: 35px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
             padding: 10px;
-            color: rgb(236, 100, 55);
+            color: rgb(254, 103, 52);
         }
-        .privacy{
-            font-size: 120%;
+        .dati{
+            font-size: 20px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            padding: 7px;
+            color:rgb(254, 103, 52);
+        }
+        #nome{
+            font-size: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding: 10px;
+        }
+        #cognome{
+            font-size: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding: 10px;
+        }
+        #data_nascita{
+            font-size: 20px;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             padding: 10px;
         }
@@ -54,48 +72,57 @@
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             padding: 20px;
         }
-    
+        #loghino{
+            display: flex;
+            height: 50px;
+            width: 50px;
+            cursor: pointer;
+        }
        
     </style>
 </head>
+
+
+
 <body>
     <div class="colonna_info">
-        <img class="omino" src="https://th.bing.com/th/id/OIP.GzCnN6x369Uv3r1mBQWVFgHaHa?rs=1&pid=ImgDetMain" alt="">
+        <img class="omino" src="img/img_omino.png" alt="">
         <div>
            <span class="dati">Nome: </span> 
-           <div class="privacy"> Paolo</div>
+           <div id="nome"></div>
         </div>
         <div>
             <span class="dati">Cognome:</span> 
-            <div class="privacy"> Campoli</div>
+            <div id="cognome"> </div>
         </div>
         <div>
             <span class="dati">Data di nascita:</span> 
-            <div class="privacy">02/09/1987</div>
+            <div id="data_nascita"></div>
         </div>
 
     </div>
     <div class="resto_pagina">
-    <div class="dati">Prenotazioni </div>
+        <div class="prenotazioni">Prenotazioni 
+            <div id="loghino">
+                <img src="img/logout.png" alt="">
+            </div>
+        </div>
 
-    <div class="tabella_prenotazioni">
-        <div class="colonna_periodo"> 
-            Periodo
-            <div class="periodo_effettuato">
-                10/07/2024 - 30/07/2024
+        <div class="tabella_prenotazioni">
+            <div class="colonna_periodo"> 
+                Periodo
+                <div class="periodo_effettuato"></div>
             </div>
-        </div>
-        <div class="colonna_periodo"> Camera
-            <div class="camera_prenotata">
-                suite
+            <div class="colonna_periodo"> Camera
+                <div class="camera_prenotata"> </div>
             </div>
-        </div>
-        <div class="colonna_periodo"> Prezzo totale
-            <div class="prezzo_totale_pagato">
-                380$
+            <div class="colonna_periodo"> Prezzo totale
+                <div class="prezzo_totale_pagato"> </div>
             </div>
         </div>
     </div>
-    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+    <script src="profilo.js"></script>
 </body>
 </html>

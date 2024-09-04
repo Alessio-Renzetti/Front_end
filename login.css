@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.navbar {
+    flex-wrap: nowrap;
+}
+.navbar img{
+    width: 13%;
+}
 .user,.pass{
     width: 25vh;
     margin: 6px;
