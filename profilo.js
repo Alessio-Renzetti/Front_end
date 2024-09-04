@@ -2,6 +2,7 @@
 let username = localStorage.getItem("username")
 let password = localStorage.getItem("password")
 
+if (username == null || password == null) {location.href = "login.html"}
 
 $.post({
     url: "http://192.168.1.237:8080/autenticati",
@@ -28,4 +29,8 @@ $.post({
     }
 });
 
-
+$("#loghino").click(function(){
+    localStorage.removeItem("username")
+    localStorage.removeItem("password")
+    location.href="login.html"
+})

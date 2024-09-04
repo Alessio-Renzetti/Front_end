@@ -18,6 +18,8 @@
             width: 100%;
         }
         .prenotazioni{
+            display: flex;
+            justify-content: space-between;
             font-size: 35px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             padding: 10px;
@@ -70,7 +72,11 @@
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             padding: 20px;
         }
-    
+        #loghino{
+            display: flex;
+            height: 50px;
+            width: 50px;
+        }
        
     </style>
 </head>
@@ -95,7 +101,11 @@
 
     </div>
     <div class="resto_pagina">
-        <div class="prenotazioni">Prenotazioni </div>
+        <div class="prenotazioni">Prenotazioni 
+            <div id="loghino">
+                <img src="img/logout.png" alt="">
+            </div>
+        </div>
 
         <div class="tabella_prenotazioni">
             <div class="colonna_periodo"> 
