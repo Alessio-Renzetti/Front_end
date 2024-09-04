@@ -103,5 +103,7 @@ display: flex;
     
 }
 .main{
+    height: 175px;
     margin-bottom: 20px;
+    border: 1px darkolivegreen solid;
 }
