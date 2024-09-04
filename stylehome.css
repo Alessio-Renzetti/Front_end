@@ -12,6 +12,7 @@ body{
 
     display:flex;
     height: 115vh;
+    flex-direction: column;
 
 
 }
@@ -139,6 +140,21 @@ p{
 
 
 
+
+}
+footer{
+    display:flex;
+    justify-content: space-between ;
+    color: #ffdead;
+
+    margin-top: 100px;
+    font-family: "Kanit", sans-serif;
+
+    background-color:darkgreen ;
+    height: 15vh;
+}
+footer div{
+padding: 10px;
 
 }
 
