@@ -48,47 +48,25 @@ display: flex;
     display: flex;
     background-color: white;
 }
+.navbar img{
 
-.nav-left{
-    display: flex;
-    flex-direction: row;
+    height: 100%;
+    width: 80%;
+
+
+
+
 }
-
-.nav-right{
-    display: flex;
-    flex-direction: row;
-   
-}
-
-.button{
-    margin:20px
-}
-
-.button:hover{
-    color:darkred;
-    transition-duration: 1s;
-    text-transform:lowercase;
-}
-
-.navbar{
-    display: flex;
-    justify-content: space-around;
-    
-}
-
-#fatina{
-     height: 200px;
-    width: 250px; 
-} 
-
 .navbar{
     transition: all;
     transition-duration: 1s;
-
-   
+    
     font-family: "Kanit", sans-serif;
     font-size: 20px;
+    a{
     color:darkolivegreen;
+    text-decoration: none;
+    }
     display: flex;
 
     justify-content: space-around;
@@ -102,8 +80,67 @@ display: flex;
     background-color:#ffdead00;
     
 }
-.main{
-    height: 175px;
-    margin-bottom: 20px;
-    border: 1px darkolivegreen solid;
+
+
+
+
+.nav-left{
+    border-bottom: 1px solid darkolivegreen;
+}
+.nav-right{
+    border-bottom: 1px solid darkolivegreen;
+}
+
+
+.button{
+   cursor: pointer;
+}
+#img:hover{
+    transition-duration: 1s;
+    filter:hue-rotate(193deg);
+}
+
+a:hover{
+    color:darkred;
+    transition-duration: 1s;
+      
+}
+
+.nav-left{
+    border-bottom: 1px solid darkolivegreen;
+   
+    display: flex;
+    justify-content: space-around;
+
+    width: 35%;
+    margin-left: 40px;
+}
+.nav-right{
+    border-bottom: 1px solid darkolivegreen;
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    margin-right: 40px;
+
+
+}
+
+#img{
+    margin-top: 10px;
+    height: 150px;
+    width: 220px;
+
+}
+.navbar img{
+
+    height: 100%;
+    width: 80%;
+
+
+
+
+}
+
+.cc:hover{
+    color:darkred;
 }
