@@ -26,17 +26,26 @@ $(".clicca").click(function(){
 
                 let elemento=$("<div>").
                 addClass("disponibilita").
-                text("Ecco le camere disponibili");
+                html("Ecco le camere disponibili: ");
                 $("body").append(elemento)
-
+                
+                
                 for(x of response){
-                    for(i in x){
-                        
-                        console.log(x)
-                        console.log(i.values())
-                    }
+                    let camera=$("<div>").
+                    addClass("tipo_camera").
+                    html(`Camera: ${x['nome_camera']}<br>
+                        Numero persone: ${x['n_max_posti']}<br>
+                        Prezzo: ${x['prezzi_tipo_camera']}`);
 
+
+                    elemento.append(camera);
+
+                    let aggiungi=$('<button>').
+                    addClass("bottoncino")
+
+                    $("camera").append(aggiungi)
                 }
+                
                 
                 
             }
