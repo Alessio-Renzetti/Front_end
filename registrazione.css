@@ -13,6 +13,7 @@ input{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20vh;
 }
 h1{
     margin: 5vh
@@ -47,16 +48,18 @@ img{
     
 }
 
+.navbar {
+    flex-wrap: nowrap;
+}
+.navbar img{
+    width: 13%;
+}
 
+body{
+    background-color: #ffdead;
+}
 
-
-
-
-
-
-
-
-
+/*
  body{
 
     height: 100vh;
@@ -83,11 +86,6 @@ img{
     
 }
 
-.button{
-    padding: 15px;
-    border: 1px solid darkolivegreen;
-    border-radius: 10px;
-}
 
 .nav-left{
   
@@ -112,5 +110,5 @@ height: 200px;
 width: 220px;
 
 
-}
+} */
  
