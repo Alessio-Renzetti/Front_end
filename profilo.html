@@ -59,8 +59,7 @@
         .tabella_prenotazioni{
             width: 100%;
             height: 80%;
-            background-color: #e5950a;
-            border: 2px solid#b8df74;
+            background-color: #ffdead;
             padding: 20px;
             display: flex;
         }
@@ -71,6 +70,7 @@
             font-size: 20px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             padding: 20px;
+            font-weight: bolder;
         }
         #loghino{
             display: flex;
@@ -87,6 +87,12 @@
             margin-top: 20px;
             height: 50px;
             width: 145px;
+        }
+        #img{
+            margin-top: 135%;
+            width: 100%;
+            filter: grayscale(1);
+            cursor: pointer;
         }
        
     </style>
@@ -113,6 +119,7 @@
         <button id="prenota" onclick='location.href="prenotaCamere.html"'>
                 PRENOTA
         </button>
+    <img onclick="location.href='.'" src="img/logo.png" id="img">
 
     </div>
     <div class="resto_pagina">
